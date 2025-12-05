@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #1C1E3D; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background-image: url('bg-gradient.png');
+  background-size: cover;
+}
+.left-panel {
+  width: 50%;
+  padding: 30pt 20pt 30pt 40pt;
+  display: flex;
+  flex-direction: column;
+}
+.section-tag {
+  color: #E84057;
+  font-size: 12pt;
+  margin: 0 0 8pt 0;
+  letter-spacing: 2pt;
+}
+.page-title {
+  color: #FFFFFF;
+  font-size: 26pt;
+  font-weight: bold;
+  margin: 0 0 20pt 0;
+}
+.design-list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12pt;
+}
+.design-item {
+  display: flex;
+  align-items: center;
+  gap: 15pt;
+}
+.item-icon {
+  width: 40pt;
+  height: 40pt;
+  background: rgba(232,64,87,0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.item-icon p {
+  color: #E84057;
+  font-size: 18pt;
+  margin: 0;
+}
+.item-text {
+  flex: 1;
+}
+.item-title {
+  color: #FFFFFF;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 0 3pt 0;
+}
+.item-desc {
+  color: #C0C0C0;
+  font-size: 11pt;
+  margin: 0;
+}
+.right-panel {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20pt;
+}
+</style>
+</head>
+<body>
+<div class="left-panel">
+  <p class="section-tag">VISUAL DESIGN</p>
+  <h1 class="page-title">经典造型</h1>
+  <div class="design-list">
+    <div class="design-item">
+      <div class="item-icon"><p>1</p></div>
+      <div class="item-text">
+        <p class="item-title">白色礼服与礼帽</p>
+        <p class="item-desc">优雅的绅士造型，月光下的标志性装扮</p>
+      </div>
+    </div>
+    <div class="design-item">
+      <div class="item-icon"><p>2</p></div>
+      <div class="item-text">
+        <p class="item-title">单片眼镜</p>
+        <p class="item-desc">神秘感的象征，遮掩真实身份</p>
+      </div>
+    </div>
+    <div class="design-item">
+      <div class="item-icon"><p>3</p></div>
+      <div class="item-text">
+        <p class="item-title">红色领结</p>
+        <p class="item-desc">点缀色彩，呼应玫瑰元素</p>
+      </div>
+    </div>
+    <div class="design-item">
+      <div class="item-icon"><p>4</p></div>
+      <div class="item-text">
+        <p class="item-title">白色披风/滑翔翼</p>
+        <p class="item-desc">华丽退场的必备道具</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="costume-image" class="placeholder right-panel"></div>
+</body>
+</html>

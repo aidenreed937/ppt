@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #1C1E3D; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url('bg-gradient.png');
+  background-size: cover;
+}
+.header {
+  padding: 20pt 40pt 10pt 40pt;
+  display: flex;
+  align-items: baseline;
+  gap: 15pt;
+}
+.section-tag {
+  color: #E84057;
+  font-size: 11pt;
+  margin: 0;
+  letter-spacing: 2pt;
+}
+.page-title {
+  color: #FFFFFF;
+  font-size: 22pt;
+  font-weight: bold;
+  margin: 0;
+  white-space: nowrap;
+}
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 0 40pt 25pt 40pt;
+  gap: 20pt;
+}
+.image-area {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-area {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.relation-title {
+  color: #E84057;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 0 8pt 0;
+}
+.relation-desc {
+  color: #C0C0C0;
+  font-size: 10pt;
+  line-height: 1.4;
+  margin: 0 0 12pt 0;
+}
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8pt;
+}
+.tag {
+  background: rgba(232,64,87,0.2);
+  border-radius: 15pt;
+  padding: 4pt 10pt;
+}
+.tag-border {
+  border: 1pt solid #E84057;
+  border-radius: 15pt;
+}
+.tag p {
+  color: #FFFFFF;
+  font-size: 9pt;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <p class="section-tag">RELATIONSHIP</p>
+  <h1 class="page-title">人物关系</h1>
+</div>
+<div class="main-content">
+  <div id="relation-image" class="placeholder image-area"></div>
+  <div class="text-area">
+    <p class="relation-title">与柯南 · 亦敌亦友</p>
+    <p class="relation-desc">怪盗基德与柯南之间存在着微妙的关系。他们是对手，却又互相尊重；是敌人，却在关键时刻互相帮助。两人都拥有超凡的智慧，这让他们的每次交锋都精彩绝伦。</p>
+    <div class="tag-list">
+      <div class="tag"><div class="tag-border"><p>智力对等</p></div></div>
+      <div class="tag"><div class="tag-border"><p>互相尊重</p></div></div>
+      <div class="tag"><div class="tag-border"><p>默契配合</p></div></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

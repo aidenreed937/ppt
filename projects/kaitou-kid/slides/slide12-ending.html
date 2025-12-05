@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #1C1E3D; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  position: relative;
+  background-image: url('bg-gradient.png');
+  background-size: cover;
+}
+.full-image {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(28,30,61,0.7);
+  z-index: 1;
+}
+.content {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  text-align: center;
+  padding: 40pt;
+}
+.end-quote {
+  color: #FFFFFF;
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0 0 15pt 0;
+  font-style: italic;
+}
+.end-sub {
+  color: #C0C0C0;
+  font-size: 18pt;
+  margin: 0 0 40pt 0;
+}
+.divider {
+  width: 100pt;
+  height: 3pt;
+  background: #E84057;
+  margin-bottom: 40pt;
+}
+.thanks {
+  color: #C0C0C0;
+  font-size: 14pt;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div id="ending-image" class="placeholder full-image"></div>
+<div class="overlay"></div>
+<div class="content">
+  <h1 class="end-quote">"The show must go on"</h1>
+  <p class="end-sub">表演永不落幕</p>
+  <div class="divider"></div>
+  <p class="thanks">THANK YOU FOR WATCHING</p>
+</div>
+</body>
+</html>

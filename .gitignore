@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Output files
+projects/*/output/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.mypy_cache/
+__pycache__/
+.pytest_cache/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build files
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Test coverage
+coverage/
+.htmlcov
+
+# Python specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Local override
+local/
+
+# Claude Code local settings
+.claude/settings.local.json

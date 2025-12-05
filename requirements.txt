@@ -1,0 +1,8 @@
+# PPT manipulation
+python-pptx>=0.6.21
+
+# Image processing
+Pillow>=10.0.0
+
+# Python 2/3 compatibility (required by rearrange.py)
+six>=1.16.0

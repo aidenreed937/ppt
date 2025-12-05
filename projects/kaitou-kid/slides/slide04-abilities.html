@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #1C1E3D; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url('bg-gradient.png');
+  background-size: cover;
+}
+.header {
+  padding: 25pt 40pt 15pt 40pt;
+  display: flex;
+  align-items: baseline;
+  gap: 15pt;
+}
+.section-tag {
+  color: #E84057;
+  font-size: 12pt;
+  margin: 0;
+  letter-spacing: 2pt;
+}
+.page-title {
+  color: #FFFFFF;
+  font-size: 26pt;
+  font-weight: bold;
+  margin: 0;
+}
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 0 40pt 25pt 40pt;
+  gap: 25pt;
+}
+.image-area {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-area {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 12pt;
+}
+.skill-card {
+  background: rgba(46,58,89,0.7);
+  border-radius: 6pt;
+  padding: 12pt 18pt;
+  border-left: 3pt solid #C0C0C0;
+}
+.skill-name {
+  color: #E84057;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 0 0 5pt 0;
+}
+.skill-desc {
+  color: #FFFFFF;
+  font-size: 12pt;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <p class="section-tag">PROFILE</p>
+  <h1 class="page-title">能力特点</h1>
+</div>
+<div class="main-content">
+  <div id="abilities-image" class="placeholder image-area"></div>
+  <div class="skills-area">
+    <div class="skill-card">
+      <p class="skill-name">魔术技能</p>
+      <p class="skill-desc">精通各种魔术手法，能够在众目睽睽之下完成不可思议的盗窃</p>
+    </div>
+    <div class="skill-card">
+      <p class="skill-name">变装能力</p>
+      <p class="skill-desc">完美模仿任何人的外貌、声音和举止，令人真假难辨</p>
+    </div>
+    <div class="skill-card">
+      <p class="skill-name">滑翔技术</p>
+      <p class="skill-desc">标志性白色滑翔翼，能够在夜空中自由翱翔</p>
+    </div>
+    <div class="skill-card">
+      <p class="skill-name">智谋过人</p>
+      <p class="skill-desc">精密的盗窃计划，总能在关键时刻化险为夷</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

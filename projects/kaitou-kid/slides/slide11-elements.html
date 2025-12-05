@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #1C1E3D; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url('bg-gradient.png');
+  background-size: cover;
+}
+.header {
+  padding: 20pt 40pt 10pt 40pt;
+  display: flex;
+  align-items: baseline;
+  gap: 15pt;
+}
+.section-tag {
+  color: #E84057;
+  font-size: 12pt;
+  margin: 0;
+  letter-spacing: 2pt;
+}
+.page-title {
+  color: #FFFFFF;
+  font-size: 26pt;
+  font-weight: bold;
+  margin: 0;
+}
+.main-content {
+  display: flex;
+  flex: 1;
+  padding: 0 40pt 40pt 40pt;
+  gap: 20pt;
+}
+.image-area {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.elements-area {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10pt;
+  align-content: center;
+}
+.element-card {
+  width: calc(50% - 5pt);
+  background: rgba(46,58,89,0.7);
+  border-radius: 8pt;
+  padding: 8pt;
+  text-align: center;
+}
+.element-symbol {
+  color: #E84057;
+  font-size: 18pt;
+  margin: 0 0 3pt 0;
+}
+.element-name {
+  color: #FFFFFF;
+  font-size: 11pt;
+  font-weight: bold;
+  margin: 0 0 2pt 0;
+}
+.element-meaning {
+  color: #C0C0C0;
+  font-size: 9pt;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <p class="section-tag">VISUAL DESIGN</p>
+  <h1 class="page-title">标志元素</h1>
+</div>
+<div class="main-content">
+  <div id="symbol-image" class="placeholder image-area"></div>
+  <div class="elements-area">
+    <div class="element-card">
+      <p class="element-symbol">A</p>
+      <p class="element-name">扑克牌</p>
+      <p class="element-meaning">魔术师的象征</p>
+    </div>
+    <div class="element-card">
+      <p class="element-symbol">O</p>
+      <p class="element-name">满月</p>
+      <p class="element-meaning">行动的时机</p>
+    </div>
+    <div class="element-card">
+      <p class="element-symbol">*</p>
+      <p class="element-name">玫瑰</p>
+      <p class="element-meaning">绅士的风度</p>
+    </div>
+    <div class="element-card">
+      <p class="element-symbol">~</p>
+      <p class="element-name">披风</p>
+      <p class="element-meaning">华丽的舞台</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

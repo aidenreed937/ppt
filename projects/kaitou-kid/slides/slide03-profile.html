@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #1C1E3D; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  background-image: url('bg-gradient.png');
+  background-size: cover;
+}
+.left-panel {
+  width: 55%;
+  padding: 20pt 30pt 20pt 40pt;
+  display: flex;
+  flex-direction: column;
+}
+.section-tag {
+  color: #E84057;
+  font-size: 12pt;
+  margin: 0 0 5pt 0;
+  letter-spacing: 2pt;
+}
+.title-wrapper {
+  border-bottom: 2pt solid #C0C0C0;
+  padding-bottom: 10pt;
+  margin-bottom: 20pt;
+}
+.page-title {
+  color: #FFFFFF;
+  font-size: 28pt;
+  font-weight: bold;
+  margin: 0;
+}
+.info-block {
+  background: rgba(46,58,89,0.6);
+  border-radius: 6pt;
+  padding: 12pt 20pt;
+  margin-bottom: 10pt;
+}
+.info-label {
+  color: #C0C0C0;
+  font-size: 11pt;
+  margin: 0 0 4pt 0;
+}
+.info-value {
+  color: #FFFFFF;
+  font-size: 16pt;
+  font-weight: bold;
+  margin: 0;
+}
+.quote-box {
+  margin-top: auto;
+  border-left: 3pt solid #E84057;
+  padding-left: 15pt;
+}
+.quote-text {
+  color: #E84057;
+  font-size: 12pt;
+  font-style: italic;
+  margin: 0;
+}
+.right-panel {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+</head>
+<body>
+<div class="left-panel">
+  <p class="section-tag">PROFILE</p>
+  <div class="title-wrapper">
+    <h1 class="page-title">角色档案</h1>
+  </div>
+  <div class="info-block">
+    <p class="info-label">真实身份</p>
+    <p class="info-value">黑羽快斗</p>
+  </div>
+  <div class="info-block">
+    <p class="info-label">年龄</p>
+    <p class="info-value">17岁</p>
+  </div>
+  <div class="info-block">
+    <p class="info-label">身份</p>
+    <p class="info-value">高中生魔术师 / 怪盗</p>
+  </div>
+  <div class="quote-box">
+    <p class="quote-text">"Ladies and Gentlemen!"</p>
+  </div>
+</div>
+<div id="profile-image" class="placeholder right-panel"></div>
+</body>
+</html>

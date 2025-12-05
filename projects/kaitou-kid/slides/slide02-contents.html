@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+html { background: #1C1E3D; }
+body {
+  width: 720pt; height: 405pt; margin: 0; padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url('bg-gradient.png');
+  background-size: cover;
+}
+.header {
+  padding: 25pt 40pt 15pt 40pt;
+}
+.title-wrapper {
+  border-bottom: 3pt solid #E84057;
+  padding-bottom: 10pt;
+  display: inline-block;
+}
+.header h1 {
+  color: #FFFFFF;
+  font-size: 32pt;
+  margin: 0;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10pt 40pt;
+  gap: 20pt;
+  flex: 1;
+}
+.card {
+  width: calc(50% - 10pt);
+  background: rgba(46,58,89,0.8);
+  border-radius: 8pt;
+  padding: 20pt;
+  border-left: 4pt solid #C0C0C0;
+  box-sizing: border-box;
+}
+.card-num {
+  color: #E84057;
+  font-size: 36pt;
+  font-weight: bold;
+  margin: 0 0 8pt 0;
+}
+.card-title {
+  color: #FFFFFF;
+  font-size: 20pt;
+  font-weight: bold;
+  margin: 0 0 8pt 0;
+}
+.card-desc {
+  color: #C0C0C0;
+  font-size: 12pt;
+  margin: 0;
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="title-wrapper">
+    <h1>CONTENTS</h1>
+  </div>
+</div>
+<div class="grid">
+  <div class="card">
+    <p class="card-num">01</p>
+    <p class="card-title">角色档案</p>
+    <p class="card-desc">身份背景与能力特点</p>
+  </div>
+  <div class="card">
+    <p class="card-num">02</p>
+    <p class="card-title">经典场景</p>
+    <p class="card-desc">月下登场与智斗柯南</p>
+  </div>
+  <div class="card">
+    <p class="card-num">03</p>
+    <p class="card-title">人物关系</p>
+    <p class="card-desc">亦敌亦友的羁绊</p>
+  </div>
+  <div class="card">
+    <p class="card-num">04</p>
+    <p class="card-title">视觉设计</p>
+    <p class="card-desc">经典造型与标志元素</p>
+  </div>
+</div>
+</body>
+</html>
